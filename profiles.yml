@@ -1,0 +1,14 @@
+lessons:
+  outputs:
+    dev:
+      dataset: dbt_lessons
+      job_execution_timeout_seconds: 500
+      job_retries: 1
+      keyfile: continual-rhino-421602-093c971fac2d.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: continual-rhino-421602
+      threads: 65
+      type: bigquery
+  target: dev
